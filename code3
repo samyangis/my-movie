@@ -1,0 +1,30 @@
+# WorldCinema Interface Engine
+
+An ultra-elegant, high-fidelity film discovery interface engineered for global curation streaming indices. Built using clean atomic components, premium typography, and explicit 4K UHD distribution targets.
+
+## Features
+
+- **Native Language Preservations**: Explicit tracking variables showing native title notation string headers (`original_title`).
+- **Targeted Streaming Maps**: Fully functional downstream link routing protocols resolving straight to legitimate high-definition video paths.
+- **Minimalist UX Frame**: Responsive structural grid layout built around asset density metrics and fluid media queries.
+
+## Tech Stack
+
+- **Framework**: React (Vite Engine)
+- **Styles**: Tailwind CSS
+- **Icon Matrices**: Lucide React Core
+
+## Local Initialization
+
+```bash
+# 1. Clone repository asset mapping 
+git clone [https://github.com/yourusername/world-cinema-engine.git](https://github.com/yourusername/world-cinema-engine.git)
+
+# 2. Enter workspace path
+cd world-cinema-engine
+
+# 3. Pull required packages
+npm install
+
+# 4. Spin up localized development container
+npm run dev
