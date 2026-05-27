@@ -1,0 +1,65 @@
+export const mockMovies = [
+  {
+    id: 1,
+    original_title: "기생충",
+    english_title: "Parasite",
+    poster_path: "https://image.tmdb.org/t/p/original/7IiTTj4Z7wB3UArJa655v_path.jpg",
+    backdrop_path: "https://image.tmdb.org/t/p/original/hiKmqZMGjZ5wP6g9jZ4v6ICas93.jpg",
+    release_date: "2019-05-30",
+    origin_country: ["KR"],
+    vote_average: 8.5,
+    overview: "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    genres: ["Drama", "Thriller", "Comedy"],
+    streaming_4k: [
+      { provider: "Hulu", link: "https://www.hulu.com/movie/parasite-da7f920f-07ec-4a7a-b962-d9f2d019f632" },
+      { provider: "Max", link: "https://www.max.com/movies/parasite/0f845019-14a0-47e2-aa2c-29c3f309d5c8" }
+    ]
+  },
+  {
+    id: 2,
+    original_title: "Anatomie d'une chute",
+    english_title: "Anatomy of a Fall",
+    poster_path: "https://image.tmdb.org/t/p/original/7gKI7hp7t6v7v6zNVEvU7B_path.jpg",
+    backdrop_path: "https://image.tmdb.org/t/p/original/k16C0erpMC86ly6Z1wZ05Z6_path.jpg",
+    release_date: "2023-08-23",
+    origin_country: ["FR"],
+    vote_average: 7.9,
+    overview: "A woman is suspected of her husband's murder, and their blind son faces a moral dilemma as the main witness.",
+    genres: ["Crime", "Drama", "Mystery"],
+    streaming_4k: [
+      { provider: "Hulu", link: "https://www.hulu.com/movie/anatomy-of-a-fall-65239a5f-4613-4315-992f-b44c6c06a35a" },
+      { provider: "Apple TV+", link: "https://tv.apple.com/us/movie/anatomy-of-a-fall/umc.cmc.6n2z9g7_path" }
+    ]
+  },
+  {
+    id: 3,
+    original_title: "千と千尋の神隠し",
+    english_title: "Spirited Away",
+    poster_path: "https://image.tmdb.org/t/p/original/39wmItIWsg5p_path.jpg",
+    backdrop_path: "https://image.tmdb.org/t/p/original/b97w9gGnd776_path.jpg",
+    release_date: "2001-07-20",
+    origin_country: ["JP"],
+    vote_average: 8.6,
+    overview: "A young girl wandering into a world of gods, witches, and spirits, where humans are transformed into beasts.",
+    genres: ["Animation", "Family", "Fantasy"],
+    streaming_4k: [
+      { provider: "Max", link: "https://www.max.com/movies/spirited-away/4b85c13f-cb64-42f2-bd5a-93be9f3be8f4" }
+    ]
+  },
+  {
+    id: 4,
+    original_title: "Dune: Part Two",
+    english_title: "Dune: Part Two",
+    poster_path: "https://image.tmdb.org/t/p/original/czembW0Gk0Ke78H68693_path.jpg",
+    backdrop_path: "https://image.tmdb.org/t/p/original/xOMo8wKKTbqw29Y66TeN66B_path.jpg",
+    release_date: "2024-02-27",
+    origin_country: ["US"],
+    vote_average: 8.2,
+    overview: "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family.",
+    genres: ["Action", "Adventure", "Sci-Fi"],
+    streaming_4k: [
+      { provider: "Max", link: "https://www.max.com/movies/dune-part-two/063be825-70e2-4545-be02-e25f77838562" },
+      { provider: "Fandango At Home", link: "https://www.vudu.com/content/movies/details/Dune-Part-Two/2984051" }
+    ]
+  }
+];
